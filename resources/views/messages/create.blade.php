@@ -2,8 +2,7 @@
 
 @section('content')
 
-<!-- Write content for each page here -->
- <h1>タスク新規作成ページ</h1>
+    <h1>タスク新規作成ページ</h1>
 
     {!! Form::model($message, ['route' => 'messages.store']) !!}
 
